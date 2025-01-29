@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## Login to view
 
-First, run the development server:
+Email: one@gmail.com,
+Password: 123456
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+***
+***
+***
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Dynamic User ID Retrieval App
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This application demonstrates how to dynamically retrieve the user ID in a Next.js application using MongoDB, TypeScript, and Tailwind CSS. The app is structured to handle dynamic routes and fetch user-specific data based on the user ID. Additionally, it includes features for password recovery and secure authentication.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features
 
-## Learn More
+- **Dynamic Route Handling**: Uses Next.js's dynamic routing feature (`[id]/page.tsx`) to fetch user data based on the user ID passed in the URL.
+- **MongoDB Integration**: Fetches and interacts with user data stored in MongoDB, offering seamless CRUD operations.
+- **Tailwind CSS Styling**: Provides a clean, responsive UI using Tailwind CSS for efficient design implementation.
+- **TypeScript**: Ensures type safety and better code quality with TypeScript integration.
+- **Forgot Password**: Allows users to reset their password via email verification.
+- **Reset Password**: Implements a secure process to reset a user’s password after email verification.
+- **Show/Hide Password**: Enables users to toggle visibility of their password in the input field for ease of use.
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **MongoDB**: For storing and retrieving user data.
+- **Next.js**: React framework for server-side rendering and routing.
+- **TypeScript**: A statically typed superset of JavaScript to provide better tooling and code reliability.
+- **Tailwind CSS**: A utility-first CSS framework for building custom designs.
